@@ -1,6 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-
+import cors from 'cors'; // Add this import
 const app = express();
 const router = express.Router();
 
